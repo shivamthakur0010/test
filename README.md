@@ -1,2 +1,2 @@
-# test
-this is just test
+# dummy
+this is just dummy application
