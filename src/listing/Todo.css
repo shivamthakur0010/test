@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container{
+    width: 30%;
+    margin:50px auto;
+    box-shadow: 2px 2px 3px 2px #eee;
+    
+}
+input{
+    border: 0;
+    width: 90%;
+    height: 6vh;
+    padding-left: 20px;
+}
+
+.input-field button{
+    cursor: pointer;
+    border: 0;
+    height: 6vh;
+    width: 10%;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.button{
+    text-align: center;
+}
+.button button{
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    margin:20px auto;
+}
+
+
+.list .list-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    margin-top: 2px;
+}
+.list .list-item h5{
+    margin: 20px;
+}
+.list .list-item .btn-flex{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.list .list-item button{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 211, 222);
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 4.5%;
+}
+input:focus{
+    outline: none;
+}
